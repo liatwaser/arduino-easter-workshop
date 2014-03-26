@@ -16,6 +16,7 @@ void setup()
 void loop()
 {
   // loop from pin 8 and going up
+  // p is a variable 
   for ( int p = 8; p < 14; p++) {
     digitalWrite(p, HIGH); // turn LED on
     delay(d);              // wait 
